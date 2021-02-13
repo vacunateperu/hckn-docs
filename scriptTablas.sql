@@ -1,7 +1,7 @@
 
-DROP TABLE public.personal;
+DROP TABLE public.persona;
 
-CREATE TABLE public.personal
+CREATE TABLE public.persona
 (
     id_persona BIGINT NOT NULL,
     nombres VARCHAR(1024) NOT NULL,
@@ -19,4 +19,4 @@ CREATE TABLE public.personal
     CONSTRAINT personal_pkey PRIMARY KEY (id_persona)
 );
 
-ALTER TABLE public.personal OWNER to vacunatepeuser;
+ALTER TABLE public.persona OWNER to vacunatepeuser;
