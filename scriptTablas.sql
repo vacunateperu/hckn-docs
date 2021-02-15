@@ -15,7 +15,7 @@ CREATE TABLE public.persona
     f_registro DATE NOT NULL,
     id_distrito CHAR(6) NOT NULL,
     code_ocupacion CHAR(3) NOT NULL,
-    prob_vulnerabilidad FLOAT(5)
+    prob_vulnerabilidad REAL
 );
 
 ALTER TABLE public.persona OWNER to vacunatepeuser;
